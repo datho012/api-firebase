@@ -1,12 +1,12 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node dev-server.js",
-    "dev": "nodemon dev-server.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "vercel-build": "echo 'Build step completed'",
-    "seed": "node api/scripts/seedUsers.js"
+    "seed": "node scripts/seedUsers.js"
   },
   "repository": {
     "type": "git",
