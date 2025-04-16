@@ -1,0 +1,36 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node dev-server.js",
+    "dev": "nodemon dev-server.js",
+    "vercel-build": "echo 'Build step completed'",
+    "seed": "node api/scripts/seedUsers.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datho012/api-angular-firebase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/datho012/api-angular-firebase/issues"
+  },
+  "homepage": "https://github.com/datho012/api-angular-firebase#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
